@@ -521,8 +521,8 @@ POSTGRES_DB=mediflow
 CORS_ORIGINS=http://localhost:5173,http://localhost:3000
 
 # --- Seed admin account (created automatically on first backend startup) ---
-SEED_ADMIN_EMAIL=admin@mediflow.ai
-SEED_ADMIN_PASSWORD=Admin@12345
+SEED_ADMIN_EMAIL=
+SEED_ADMIN_PASSWORD=
 ```
 
 | Variable | Purpose |
