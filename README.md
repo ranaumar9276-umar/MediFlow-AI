@@ -512,13 +512,13 @@ ACCESS_TOKEN_EXPIRE_MINUTES=60
 ALGORITHM=HS256
 
 # --- Database ---
-DATABASE_URL=postgresql+psycopg2://mediflow:mediflow_password@db:5432/mediflow
-POSTGRES_USER=mediflow
-POSTGRES_PASSWORD=mediflow_password
-POSTGRES_DB=mediflow
+DATABASE_URL=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
 
 # --- CORS ---
-CORS_ORIGINS=http://localhost:5173,http://localhost:3000
+CORS_ORIGINS=
 
 # --- Seed admin account (created automatically on first backend startup) ---
 SEED_ADMIN_EMAIL=
